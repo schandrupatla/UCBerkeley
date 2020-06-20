@@ -1,0 +1,234 @@
+/* HW_17_section */
+.inline-block {
+  display:inline-block;
+  vertical-align:top;
+}
+.content h2{
+  padding-left:50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(rgb(207, 47, 47),rgb(49, 10, 224) );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo {
+  margin:4px 0 0 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logo img{
+  width:50px;
+  margin-top:5px;
+}
+nav.inline-block{
+  width:73%;
+}
+/* .inline-block ul {
+  width:20%;
+  margin-left:auto;
+}
+ inline-block li {
+ padding:4px 13px;
+}  */
+ ul {
+  width:20%;
+  margin-left:auto;
+}
+  li {
+ padding:4px 13px;
+}
+.content{
+  width:800px;
+  margin:0 auto;
+  padding: 20px;
+
+}
+.content .myProfilePic{
+  padding:10px 0 20px 200px;
+}
+.content p{
+  padding:10px 0 10px 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+ 
+}
+footer{
+  display:flex;
+  background-color: #30CFD0; 
+  padding:center;
+  position:absolute;
+  width:100vw;
+  Height:200px;
+  position: absolute;
+}
+
+/* .footer-inline-block ul {
+  display:inline-block;
+  width:20%;
+  margin-left:auto;
+} */
+.footer-inline-block li {
+  display:inline-block;
+ padding:4px 13px;
+} 
+
+
+.Navigation{
+  display:flex;
+  background-color:#30CFD0; 
+  height:60px;
+  justify-content: space-between;
+}
+body{
+  margin:0px;
+}
+.resume-header{
+  font-size: 16px;
+  font-weight: bold ;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+.resume-section{
+  width:120px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-container{
+  display:flex;
+  justify-content: flex-end;
+}
+.heroImg {
+    padding:25px;   
+  }
+
+/* HW_18_Section */
+body {
+  margin: 0;
+}
+.mySkills h1{
+  padding:10px;
+  margin:30px 10px;
+}
+
+.flexContainer{
+  
+  flex-basis:auto;
+  display:flex;
+  align-items: center;
+  margin:10px auto;
+  /* text-align: center; */
+  justify-content: center;
+}
+.Skills-expert{
+  padding:0;
+   margin:0;
+}
+.Skills{
+  outline-style:solid; 
+  outline-style: dotted;
+   outline-width:1px;
+   padding:50px;
+   margin:0 10px;
+   height: 350px;
+  
+}
+.Skills ul{
+  width:auto;
+  margin-left:auto;
+}
+.Skills li {
+ padding:0;
+
+}
+.mySkills h1{
+  margin-left:32%;
+}
+.myWork h1{
+  margin-left:32%;
+  /* padding:20px; */
+}
+.myWork h3{
+  /* display:inline-block; */
+  margin-left:32%;
+  /* padding:20px; */
+}
+.workGrid{
+  margin:0px 32%;
+  display:grid; 
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  max-width: 600px;
+  grid-template-rows: 4fr, 4fr,4fr;/*200px 200px 200px  ; check */
+  grid-template-areas:
+  "casestudy1"
+  "casestudy2"
+  "casestudy3"
+ 
+
+}
+.caseStudy1 {
+  
+  display:flex;
+  outline-style:solid; 
+  outline-width:1px; 
+  grid-template-columns: 40% 60%  ; /*check */
+  grid-gap:40px;
+  padding:30px;
+  /* margin: 5%; */
+  align-items: center;
+}
+.skillsSet{
+  /* width:30px; */
+  align-content: center;
+}
+.caseStudy2{
+  display:flex;
+  margin-top: 10px;
+  outline-style:solid; 
+  outline-width:1px; 
+  grid-template-columns: 40% 60%  ; /*check */
+  grid-gap:40px;
+  padding:30px;
+  /* overflow:hidden; */
+  align-items: center;
+}
+.caseStudy3{
+  display:flex;
+  /* margin-top: 10px; */
+  margin:10px 0;
+  outline-style:solid; 
+  outline-width:1px; 
+  grid-template-columns: 40% 60%  ; /*check */
+  grid-gap:40px;
+  padding:30px;
+  /* overflow:hidden; */
+  align-items: center;
+}
+.C1Image{
+  margin-right: 60px;
+}
+.C2Image{
+  margin-left: 60px;
+}
+.C3Image{
+  margin-right: 60px;
+}
+
+
+/* *{outline: solid 1px red;} */
+
+@media only screen and (max-width: 600px){
+ .myWork{ 
+   /* position: static;
+  margin: 20px; */
+ }
+}
+
+
